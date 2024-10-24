@@ -20,5 +20,25 @@ public class Nomor1 {
         // Tampilkan hasil
         System.out.println("Total jam lembur: " + jamLembur);
         System.out.println("Honor lembur: " + honorLembur);
+
+        /*
+          mulai
+
+             deklarasi varibel
+             jamLembur=interger;
+             honorLembur=double;
+
+             input jamLembur
+
+             if (jamlembur <=16) THEN
+                output= jamlembur *10.000
+
+            else THEN
+        output = jamlembur *15000
+
+end if
+
+selesai
+ */
     }
 }
