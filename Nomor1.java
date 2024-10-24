@@ -1,6 +1,8 @@
-public class Nomor1{
-    public static void main(String[] args){
-    Scanner input = new Scanner(System.in);
+import java.util.Scanner;
+
+public class Nomor1 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
         
     
         System.out.print("Masukkan jumlah jam lembur: ");
@@ -15,7 +17,7 @@ public class Nomor1{
             honorLembur = (16 * 10000) + ((jamLembur - 16) * 15000);
         }
         
-        
+        // Tampilkan hasil
         System.out.println("Total jam lembur: " + jamLembur);
         System.out.println("Honor lembur: " + honorLembur);
     }
