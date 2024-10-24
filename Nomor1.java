@@ -1,10 +1,8 @@
 public class Nomor1 {
     public static void main(String[] args) {
-        int jamLembur = 12;  // Contoh nilai jam lembur
-
+        int jamLembur = 12;  
         double honorLembur;
-
-        // Perhitungan honor lembur
+        
         if (jamLembur <= 16) {
             honorLembur = jamLembur * 10000;
         } else {
